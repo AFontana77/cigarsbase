@@ -5,8 +5,8 @@ import { Database, BookOpen, BarChart3, Star, ArrowRight, Download, CheckCircle 
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Cedro — Search 73 cigars from Cigar Aficionado and Halfwheel",
-  description: "Cedro has 73 cigars curated from Cigar Aficionado and Halfwheel with ratings, vitolas, wrappers, and tasting notes. Log your smokes, track your humidor, and build a personal collection.",
+  title: "Cedro — Search 1,840 cigars from Cigar Aficionado and Halfwheel",
+  description: "Cedro has 1,840 cigars curated from Cigar Aficionado and Halfwheel with ratings, vitolas, wrappers, and tasting notes. Log your smokes, track your humidor, and build a personal collection.",
 };
 
 const FEATURES = [
@@ -26,10 +26,10 @@ export default function HomePage() {
         <section className="py-20 px-4" style={{ backgroundColor: '#FFF1F2' }}>
           <div className="max-w-3xl mx-auto text-center">
             <span className="inline-block text-xs font-semibold uppercase tracking-widest text-rose-800 bg-rose-50 px-3 py-1 rounded-full mb-6">
-              Search 73 cigars. Log your own.
+              Search 1,840 cigars. Log your own.
             </span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Search 73 cigars from Cigar Aficionado and Halfwheel.
+              Search 1,840 cigars from Cigar Aficionado and Halfwheel.
               <br />
               <span className="text-rose-900">Log your smokes.</span>
             </h1>
@@ -45,7 +45,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="mt-4 text-sm text-gray-400">
-              Free app. No credit card. 73 cigars from Cigar Aficionado + Halfwheel.
+              Free app. No credit card. 1,840 cigars from Cigar Aficionado + Halfwheel.
             </p>
           </div>
         </section>
@@ -57,7 +57,7 @@ export default function HomePage() {
               The database IS the app.
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-              Most log apps give you a blank screen. Cedro gives you 73 cigars from Cigar Aficionado + Halfwheel — searchable, organized, and ready to use. Log what you do. Build your personal collection alongside the reference library.
+              Most log apps give you a blank screen. Cedro gives you 1,840 cigars from Cigar Aficionado + Halfwheel — searchable, organized, and ready to use. Log what you do. Build your personal collection alongside the reference library.
             </p>
             <div className="grid sm:grid-cols-2 gap-6 text-left">
               {FEATURES.map(({ icon: Icon, title, body }) => (
