@@ -3,8 +3,8 @@ import { SiteFooter } from '@/components/layout/SiteFooter';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy — Cedro',
-  description: 'Privacy policy for the Cedro mobile application and cigarsbase.com website.',
+  title: 'Privacy Policy — CigarsBase',
+  description: 'Privacy policy for the CigarsBase mobile application and cigarsbase.com website.',
 };
 
 export default function PrivacyPage() {
