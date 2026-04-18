@@ -6,7 +6,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "Free Cigar Tasting Notes Template",
-  description: "A printable tasting card — brand, vitola, wrapper, draw, burn, ash, and flavor notes for each smoke. Free printable from Cedro — no signup required.",
+  description: "A printable tasting card — brand, vitola, wrapper, draw, burn, ash, and flavor notes for each smoke. Free printable from CigarsBase — no signup required.",
 };
 
 export default function FreeDownloadPage() {
@@ -46,7 +46,7 @@ export default function FreeDownloadPage() {
         <section className="py-16 px-4 bg-white">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Want the searchable database?</h2>
-            <p className="text-gray-500 mb-6">The free PDF covers the basics. The Cedro app gives you the full searchable library and your personal log — free on iPhone and Android.</p>
+            <p className="text-gray-500 mb-6">The free PDF covers the basics. The CigarsBase app gives you the full searchable library and your personal log — free on iPhone and Android.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer"
                  className="inline-flex items-center justify-center gap-2 bg-black text-white font-semibold px-8 py-3 rounded-xl hover:bg-gray-800 transition-colors min-h-[48px]">

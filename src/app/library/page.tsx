@@ -5,8 +5,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Cedro Library — 1,840 Cigars",
-  description: "Cigars curated from Cigar Aficionado and Halfwheel — vitola, wrapper country, strength, ratings, and tasting notes. Browse the Cedro reference database — available in the free app.",
+  title: "CigarsBase Library — 1,840 Cigars",
+  description: "Cigars curated from Cigar Aficionado and Halfwheel — vitola, wrapper country, strength, ratings, and tasting notes. Browse the CigarsBase reference database — available in the free app.",
 };
 
 const CATEGORIES = [
@@ -29,7 +29,7 @@ export default function LibraryPage() {
               <Database className="text-rose-800" size={28} />
             </div>
             <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-              Cedro Library
+              CigarsBase Library
             </h1>
             <p className="text-gray-600 text-lg max-w-xl mx-auto leading-relaxed">
               1,840 cigars from 92 brands — vitola, wrapper, and strength. Cigars curated from Cigar Aficionado and Halfwheel — vitola, wrapper country, strength, ratings, and tasting notes.
@@ -64,7 +64,7 @@ export default function LibraryPage() {
               Search the full database in the app.
             </h2>
             <p className="text-gray-600 mb-6">
-              The Cedro app has the complete 1,840 cigars with full-text search, filters, and your personal log — all free.
+              The CigarsBase app has the complete 1,840 cigars with full-text search, filters, and your personal log — all free.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer"

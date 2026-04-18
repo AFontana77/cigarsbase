@@ -19,7 +19,7 @@ export default function PrivacyPage() {
 
             <h2 className="text-xl font-semibold text-gray-900 mt-8 mb-3">1. Who We Are</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Anvil Road LLC operates cigarsbase.com and the Cedro mobile application.
+              Anvil Road LLC operates cigarsbase.com and the CigarsBase mobile application.
               Contact: <a href="mailto:support@cigarsbase.com" className="text-rose-700 hover:underline">support@cigarsbase.com</a>
             </p>
 

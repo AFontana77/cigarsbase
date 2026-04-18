@@ -5,8 +5,8 @@ import { Database, BookOpen, BarChart3, Star, ArrowRight, Download, CheckCircle 
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Cedro — Search 1,840 cigars from Cigar Aficionado and Halfwheel",
-  description: "Cedro has 1,840 cigars curated from Cigar Aficionado and Halfwheel with ratings, vitolas, wrappers, and tasting notes. Log your smokes, track your humidor, and build a personal collection.",
+  title: "CigarsBase — Search 1,840 cigars from Cigar Aficionado and Halfwheel",
+  description: "CigarsBase has 1,840 cigars curated from Cigar Aficionado and Halfwheel with ratings, vitolas, wrappers, and tasting notes. Log your smokes, track your humidor, and build a personal collection.",
 };
 
 const FEATURES = [
@@ -34,11 +34,11 @@ export default function HomePage() {
               <span className="text-rose-900">Log your smokes.</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8 leading-relaxed">
-              Cedro is a curated cigar database and personal smoke log. Search any cigar by brand, vitola, wrapper, or strength. Find ratings, tasting notes, and country of origin. Log your own smokes with notes, ratings, and occasion. Build a collection database that's actually yours.
+              CigarsBase is a curated cigar database and personal smoke log. Search any cigar by brand, vitola, wrapper, or strength. Find ratings, tasting notes, and country of origin. Log your own smokes with notes, ratings, and occasion. Build a collection database that's actually yours.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link href="/library" className="inline-flex items-center justify-center gap-2 bg-rose-800 text-white font-semibold px-8 py-3 rounded-xl hover:bg-rose-900 transition-colors press-feedback min-h-[48px]">
-                Browse the Cedro Library <ArrowRight size={18} />
+                Browse the CigarsBase Library <ArrowRight size={18} />
               </Link>
               <Link href="/free-download" className="inline-flex items-center justify-center gap-2 border border-gray-300 text-gray-700 font-medium px-8 py-3 rounded-xl hover:bg-gray-50 transition-colors min-h-[48px]">
                 <Download size={18} /> Free Download
@@ -57,7 +57,7 @@ export default function HomePage() {
               The database IS the app.
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-              Most log apps give you a blank screen. Cedro gives you 1,840 cigars from Cigar Aficionado + Halfwheel — searchable, organized, and ready to use. Log what you do. Build your personal collection alongside the reference library.
+              Most log apps give you a blank screen. CigarsBase gives you 1,840 cigars from Cigar Aficionado + Halfwheel — searchable, organized, and ready to use. Log what you do. Build your personal collection alongside the reference library.
             </p>
             <div className="grid sm:grid-cols-2 gap-6 text-left">
               {FEATURES.map(({ icon: Icon, title, body }) => (

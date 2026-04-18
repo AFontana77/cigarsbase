@@ -4,8 +4,8 @@ import { Mail } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Support — Cedro',
-  description: 'Get help with the Cedro app. Contact support or browse common questions.',
+  title: 'Support — CigarsBase',
+  description: 'Get help with the CigarsBase app. Contact support or browse common questions.',
 };
 
 export default function SupportPage() {
@@ -16,7 +16,7 @@ export default function SupportPage() {
         <section className="py-16 px-4 bg-white">
           <div className="max-w-2xl mx-auto">
             <h1 className="text-3xl font-bold text-gray-900 mb-2">App Support</h1>
-            <p className="text-gray-500 mb-10">Get help with Cedro or give us feedback.</p>
+            <p className="text-gray-500 mb-10">Get help with CigarsBase or give us feedback.</p>
 
             <div className="bg-rose-50 border border-rose-200 rounded-2xl p-6 mb-10 flex gap-4 items-start">
               <div className="w-10 h-10 rounded-xl bg-rose-100 flex items-center justify-center flex-shrink-0 mt-1">
@@ -36,7 +36,7 @@ export default function SupportPage() {
                   How do I get the app? <span className="text-rose-600 text-lg">+</span>
                 </summary>
                 <div className="px-6 pb-5 text-gray-600 leading-relaxed">
-                  Search &ldquo;Cedro&rdquo; in the App Store or Google Play. The app is free to download. The $6.99 one-time unlock removes entry limits and adds premium features.
+                  Search &ldquo;CigarsBase&rdquo; in the App Store or Google Play. The app is free to download. The $6.99 one-time unlock removes entry limits and adds premium features.
                 </div>
               </details>
               <details className="border border-gray-200 rounded-xl">
@@ -68,7 +68,7 @@ export default function SupportPage() {
                   Is there a subscription? <span className="text-rose-600 text-lg">+</span>
                 </summary>
                 <div className="px-6 pb-5 text-gray-600 leading-relaxed">
-                  No. Cedro is free to download with entry limits, and $6.99 one-time to unlock everything. No monthly fees, ever.
+                  No. CigarsBase is free to download with entry limits, and $6.99 one-time to unlock everything. No monthly fees, ever.
                 </div>
               </details>
               <details className="border border-gray-200 rounded-xl">

@@ -18,8 +18,8 @@ export function SiteNav() {
       </a>
       <nav className="fixed top-0 w-full z-50 bg-white/90 backdrop-blur-md border-b border-rose-100" role="navigation" aria-label="Main navigation">
         <div className="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/" className="text-xl font-bold text-rose-900 tracking-tight" aria-label="Cedro home">
-            Cedro
+          <Link href="/" className="text-xl font-bold text-rose-900 tracking-tight" aria-label="CigarsBase home">
+            CigarsBase
           </Link>
           <div className="hidden sm:flex items-center gap-6">
             {links.map(l => (
