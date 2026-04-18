@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 const FEATURES = [
-  { icon: Database, title: "Cigar database", body: "10,000+ cigars with vitola, wrapper, strength, and tasting notes." },
+  { icon: Database, title: "Cigar database", body: "1,840+ cigars with vitola, wrapper, strength, and tasting notes." },
   { icon: BookOpen, title: "Smoke log", body: "Log brand, vitola, date, occasion, pairing, and rating. Add your own notes." },
   { icon: BarChart3, title: "Humidor tracker", body: "Track your humidor inventory — what you have, what you paid, what to age." },
   { icon: Star, title: "Collection database", body: "Your personal list of smokes and ratings, separate from the main database." },
