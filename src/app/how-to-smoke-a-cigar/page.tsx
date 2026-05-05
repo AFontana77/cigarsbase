@@ -56,8 +56,9 @@ export default function HowToSmokeACigarPage() {
               How to Smoke a Cigar
             </h1>
             <p className="text-gray-600 text-lg max-w-xl mx-auto leading-relaxed">
-              A step-by-step guide for first-timers and anyone who wants to get more out of each smoke.
-              Cut, toast, light, and pace — done right.
+              Most first-time cigar smokers either inhale by mistake, light it wrong, or pace too
+              fast and get sick. None of that is the cigar's fault. This guide walks through every
+              step so your first smoke goes the way it should.
             </p>
           </div>
         </section>
@@ -65,7 +66,7 @@ export default function HowToSmokeACigarPage() {
         {/* Step-by-step */}
         <section aria-label="Step-by-step process" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">The 7-Step Process</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">Seven Steps to a Smoke That Actually Goes Well</h2>
 
             <ol className="space-y-10 list-none">
               <li>
@@ -189,7 +190,7 @@ export default function HowToSmokeACigarPage() {
         {/* Equipment */}
         <section aria-label="Equipment guide" className="py-16 px-4 bg-rose-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">What You Need</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">The Right Tools Mean No Wasted Cigars</h2>
             <div className="grid sm:grid-cols-2 gap-6">
               <div className="bg-white rounded-xl p-6 border border-rose-100">
                 <h3 className="font-bold text-gray-900 mb-3">Cutter</h3>
@@ -230,7 +231,7 @@ export default function HowToSmokeACigarPage() {
         {/* FAQ */}
         <section aria-label="Frequently asked questions" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">Common Questions</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">Questions Most First-Timers Ask Before They Ask Anyone</h2>
             <div className="space-y-8">
 
               <div>
@@ -299,10 +300,13 @@ export default function HowToSmokeACigarPage() {
         <section aria-label="App download call to action" className="py-16 px-4 bg-rose-50">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Log your first smoke in CigarsBase
+              Build a Flavor Map, Not Just a Memory
             </h2>
             <p className="text-gray-600 mb-6">
-              Track the date, vitola, and your rating. 1,840 cigars in the database. Free download.
+              Log your first five smokes in CigarsBase. Note the draw, burn, and what you tasted.
+              After a handful of entries you will know which wrappers and strengths you return to
+              and which you skip. That is how you stop buying cigars you only half-enjoy.
+              1,840 cigars in the database. Free, no subscription.
             </p>
             <Link
               href="/free-download"

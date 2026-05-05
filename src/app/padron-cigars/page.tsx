@@ -56,8 +56,10 @@ export default function PadronCigarsPage() {
               Padron Cigars
             </h1>
             <p className="text-gray-600 text-lg max-w-xl mx-auto leading-relaxed">
-              Four Cigars of the Year from Cigar Aficionado. No other brand comes close.
-              Here is what each Padron series is, how they differ, and where to start.
+              Padron has won more Cigars of the Year than any other brand. That is the reputation.
+              What most people do not know is which series to start with, how the natural and
+              maduro versions differ in the smoke, and why the Heritage line punches well above
+              its price. This guide covers all of it.
             </p>
           </div>
         </section>
@@ -65,7 +67,7 @@ export default function PadronCigarsPage() {
         {/* Brand overview */}
         <section aria-label="Brand history and overview" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">The Padron Story</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Why Padron Keeps Winning While Other Brands Fade</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
               Jose Orlando Padron was a Cuban exile who founded Padron Cigars in 1964 in Miami.
               He built the company into one of the most respected names in premium tobacco.
@@ -89,7 +91,7 @@ export default function PadronCigarsPage() {
         {/* Series breakdown */}
         <section aria-label="Padron series breakdown" className="py-16 px-4 bg-rose-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">The Padron Lines</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">Which Padron Line Matches Where You Are Right Now</h2>
             <div className="space-y-6">
 
               <div className="bg-white rounded-xl p-6 border border-rose-100">
@@ -169,7 +171,7 @@ export default function PadronCigarsPage() {
         {/* Natural vs Maduro */}
         <section aria-label="Natural versus maduro comparison" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Natural vs. Maduro</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Natural or Maduro: How the Wrapper Changes the Entire Smoke</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
               Padron offers both natural and maduro versions across most lines. Here is how they differ:
             </p>
@@ -197,7 +199,7 @@ export default function PadronCigarsPage() {
         {/* Recommendation */}
         <section aria-label="Beginner recommendation" className="py-12 px-4 bg-rose-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Where to Start</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">The First Padron That Earns Its Reputation</h2>
             <div className="bg-white rounded-xl p-6 border border-rose-100">
               <p className="text-gray-700 leading-relaxed">
                 Start with the <strong>1964 Exclusivo Natural</strong>. It is under $25, easy to
@@ -214,11 +216,14 @@ export default function PadronCigarsPage() {
         <section aria-label="App download call to action" className="py-16 px-4 bg-white">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Search Padron in CigarsBase
+              Know Every Padron Before You Buy It
             </h2>
             <p className="text-gray-600 mb-6">
-              See all Padron ratings and vitolas in our 1,840-cigar database.
-              Filter by series, strength, or vitola. Free download.
+              Log each Padron you smoke in CigarsBase. Rate the draw, burn, and flavor. After a
+              few smokes across the Heritage, 1964, and 1926 lines you will know exactly which
+              series matches your palate and which vitola to reach for. No more guessing at the
+              humidor counter. All Padron ratings and vitolas in the 1,840-cigar database.
+              Free, no subscription.
             </p>
             <Link
               href="/free-download"

@@ -150,8 +150,9 @@ export default function TypesOfCigarsPage() {
               Types of Cigars
             </h1>
             <p className="text-gray-600 text-lg max-w-xl mx-auto leading-relaxed">
-              Wrappers, strength levels, country profiles, and how to read a band.
-              A full reference for anyone building their knowledge of premium cigars.
+              The wrapper is 60 to 70% of the flavor. The country of origin sets the character.
+              The strength level tells you what your body will feel. Know these three things and
+              you can walk into any cigar shop, read a band, and pick well every time.
             </p>
           </div>
         </section>
@@ -159,7 +160,7 @@ export default function TypesOfCigarsPage() {
         {/* Construction */}
         <section aria-label="Cigar construction overview" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">How a Cigar Is Built</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">What You Are Actually Tasting When You Smoke a Cigar</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
               Every premium cigar has three parts: wrapper, binder, and filler. Each contributes
               differently to the smoke.
@@ -196,7 +197,7 @@ export default function TypesOfCigarsPage() {
         {/* Wrappers */}
         <section aria-label="Wrapper types explained" className="py-16 px-4 bg-rose-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">Wrapper Types</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">Pick the Wrapper, Pick the Experience</h2>
             <div className="space-y-5">
               {WRAPPERS.map((w) => (
                 <div key={w.name} className="bg-white rounded-xl p-5 border border-rose-100">
@@ -216,7 +217,7 @@ export default function TypesOfCigarsPage() {
         {/* Strength classification */}
         <section aria-label="Cigar strength classification" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Strength Levels</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Strength Is Not the Same as Flavor — Know the Difference</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
               Strength in cigars refers to nicotine content, not just flavor intensity. A cigar
               can taste bold and complex but be medium strength. Do not confuse complexity with
@@ -253,7 +254,7 @@ export default function TypesOfCigarsPage() {
         {/* Country profiles */}
         <section aria-label="Country of origin profiles" className="py-16 px-4 bg-rose-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Country Profiles</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Where It Was Grown Tells You How It Will Smoke</h2>
             <div className="grid sm:grid-cols-2 gap-5">
               {COUNTRIES.map((c) => (
                 <div key={c.name} className="bg-white rounded-xl p-5 border border-rose-100">
@@ -268,7 +269,7 @@ export default function TypesOfCigarsPage() {
         {/* Reading the band */}
         <section aria-label="How to read a cigar band" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">How to Read a Cigar Band</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Read the Band Before You Buy the Cigar</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
               The band (the paper ring near the head) tells you several things. Most bands include:
             </p>
@@ -297,11 +298,14 @@ export default function TypesOfCigarsPage() {
         <section aria-label="App download call to action" className="py-16 px-4 bg-rose-50">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Browse 1,840 cigars by wrapper, strength, and country
+              Stop Buying Cigars by Brand Name. Start Buying by What You Like.
             </h2>
             <p className="text-gray-600 mb-6">
-              Search and filter the full CigarsBase database in the free app.
-              Find your next cigar by what you already know you like.
+              Log each smoke in CigarsBase. Note the wrapper, strength, and country. After 20
+              smokes you will see patterns: which wrappers you reach for, which countries you
+              return to, which strength hits your limit. That data turns guessing into a rotation
+              you actually enjoy. 1,840 cigars searchable by wrapper, strength, and origin.
+              Free, no subscription.
             </p>
             <Link
               href="/free-download"

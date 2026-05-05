@@ -119,8 +119,9 @@ export default function BestCigarsForBeginnersPage() {
               Best Cigars for Beginners
             </h1>
             <p className="text-gray-600 text-lg max-w-xl mx-auto leading-relaxed">
-              Six specific picks organized by body level and price. Start mild, build up.
-              Each entry includes the wrapper, price, rating, and who it is best for.
+              Your first cigar sets the tone. Pick the wrong one and it is harsh, tight, or
+              overwhelming. Pick the right one and you understand the appeal immediately.
+              These six are where experienced smokers send beginners.
             </p>
           </div>
         </section>
@@ -128,7 +129,7 @@ export default function BestCigarsForBeginnersPage() {
         {/* Why Connecticut first */}
         <section aria-label="Why start with Connecticut shade wrapper" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Start with Connecticut Shade</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">What Makes a Cigar Good for Someone Starting Out</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
               Connecticut shade is the wrapper of choice for beginners. The leaves grow under shade
               cloth in Connecticut, which slows their growth and produces a lighter, thinner leaf.
@@ -150,7 +151,7 @@ export default function BestCigarsForBeginnersPage() {
         {/* The picks */}
         <section aria-label="Six beginner cigar picks" className="py-16 px-4 bg-rose-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">The 6 Picks</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-8">Six Cigars That Will Not Overwhelm and Will Not Disappoint</h2>
             <div className="space-y-6">
               {PICKS.map((pick) => (
                 <div key={pick.rank} className="bg-white rounded-xl p-6 border border-rose-100">
@@ -179,7 +180,7 @@ export default function BestCigarsForBeginnersPage() {
         {/* What to avoid */}
         <section aria-label="What beginners should avoid" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">What to Avoid</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">What Turns a Good First Smoke into a Bad Memory</h2>
             <div className="space-y-4">
               {[
                 {
@@ -214,7 +215,7 @@ export default function BestCigarsForBeginnersPage() {
         {/* Tips */}
         <section aria-label="Beginner smoking tips" className="py-12 px-4 bg-rose-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Quick Tips</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Six Habits That Make Every Smoke Better from the Start</h2>
             <ul className="space-y-3">
               {[
                 'Eat a full meal before you smoke.',
@@ -237,11 +238,13 @@ export default function BestCigarsForBeginnersPage() {
         <section aria-label="App download call to action" className="py-16 px-4 bg-white">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Search any of these cigars in CigarsBase
+              Build a Flavor Map from Your First Five Smokes
             </h2>
             <p className="text-gray-600 mb-6">
-              See full ratings, tasting notes, and vitola info. Log your first smoke.
-              1,840 cigars in the database. Free download.
+              Log your first cigars in CigarsBase. Note the wrapper, strength, and what you tasted.
+              After five entries you will know which direction to go next and which cigars to skip
+              entirely. That is how you stop wasting money on sticks that were not right for you.
+              All six picks are in the 1,840-cigar database. Free, no subscription.
             </p>
             <Link
               href="/free-download"

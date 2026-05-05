@@ -72,8 +72,9 @@ export default function CigarSizesPage() {
               Cigar Sizes and Shapes
             </h1>
             <p className="text-gray-600 text-lg max-w-xl mx-auto leading-relaxed">
-              A full vitola reference with ring gauge, length, smoke time, and what each format
-              means for your experience. Includes the figurado shapes: torpedo, belicoso, and perfecto.
+              Size changes the smoke. The same blend in a Robusto tastes different from that
+              blend in a Churchill. This guide explains why, walks through every common vitola,
+              and tells you which size to pick for the time and experience you have.
             </p>
           </div>
         </section>
@@ -81,7 +82,7 @@ export default function CigarSizesPage() {
         {/* Vitola explained */}
         <section aria-label="What vitola means" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">What Is a Vitola?</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Why the Same Cigar Tastes Different in a Different Size</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
               Vitola is the Spanish term for a specific cigar size and shape. Every cigar has a
               vitola defined by two measurements: ring gauge (diameter) and length in inches.
@@ -115,7 +116,7 @@ export default function CigarSizesPage() {
         {/* Ring gauge explained */}
         <section aria-label="Ring gauge explained" className="py-16 px-4 bg-rose-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Ring Gauge: What the Number Means</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Ring Gauge: The Number That Controls Your Draw and Your Nicotine</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
               Ring gauge measures a cigar's diameter in 64ths of an inch. A 50 ring gauge cigar
               is 50/64 of an inch in diameter, or about 0.78 inches. That is roughly the diameter
@@ -147,7 +148,7 @@ export default function CigarSizesPage() {
         {/* Length effect */}
         <section aria-label="How cigar length affects the smoke" className="py-12 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">How Length Affects the Smoke</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Longer Cigars Burn Cooler. Here Is Why That Matters.</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
               Length has two effects. First, a longer cigar is cooler. The greater distance from
               the burning foot to your mouth allows the smoke to cool down before it reaches you.
@@ -165,7 +166,7 @@ export default function CigarSizesPage() {
         {/* Vitola chart */}
         <section aria-label="Complete vitola reference chart" className="py-16 px-4 bg-rose-50">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Complete Vitola Chart</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Every Common Vitola — Size, Time, and What to Expect</h2>
             <div className="overflow-x-auto rounded-xl border border-rose-100">
               <table className="w-full text-sm border-collapse">
                 <thead>
@@ -196,7 +197,7 @@ export default function CigarSizesPage() {
         {/* Figurados */}
         <section aria-label="Figurado shapes explained" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Figurado Shapes</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Figurado Shapes: When the Cut and the Draw Require More Attention</h2>
             <div className="space-y-5">
               <div className="bg-gray-50 rounded-xl p-5 border border-gray-100">
                 <h3 className="font-bold text-gray-900 mb-2">Torpedo</h3>
@@ -229,7 +230,7 @@ export default function CigarSizesPage() {
         {/* Beginner rec */}
         <section aria-label="Beginner size recommendation" className="py-12 px-4 bg-rose-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Where to Start</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">The Size That Fits Almost Every Session</h2>
             <div className="bg-white rounded-xl p-6 border border-rose-100">
               <p className="text-gray-700 leading-relaxed">
                 Start with a <strong>Robusto (50 x 5")</strong>. It is 45 to 60 minutes, widely
@@ -246,11 +247,13 @@ export default function CigarSizesPage() {
         <section aria-label="App download call to action" className="py-16 px-4 bg-white">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Filter by vitola in CigarsBase
+              Match the Right Size to Every Session You Have
             </h2>
             <p className="text-gray-600 mb-6">
-              All 1,840 cigars in the database include the full vitola. Filter by your preferred
-              size and find what fits your session. Free download.
+              Log each smoke in CigarsBase with the vitola. Over time you will see which sizes
+              you reach for on a 45-minute lunch break versus a two-hour evening outside. That
+              pattern tells you exactly what to keep stocked in your humidor. All 1,840 cigars
+              include the full vitola. Free, no subscription.
             </p>
             <Link
               href="/free-download"

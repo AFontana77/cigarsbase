@@ -56,8 +56,9 @@ export default function CigarHumidorPage() {
               Cigar Humidor Guide
             </h1>
             <p className="text-gray-600 text-lg max-w-xl mx-auto leading-relaxed">
-              What a humidor is, how it works, the four types, and how to season one correctly.
-              Covers the most common mistakes that dry out or mold cigars.
+              A cigar outside a humidor starts to die within days. Too dry and it burns hot and
+              bitter. Too humid and it will not draw. This guide covers what to buy, how to set
+              it up, and what to do when the readings drift.
             </p>
           </div>
         </section>
@@ -65,7 +66,7 @@ export default function CigarHumidorPage() {
         {/* What is a humidor */}
         <section aria-label="What is a cigar humidor" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">What Is a Humidor?</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Why a Humidor Makes or Breaks the Smoke</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
               A humidor is a box or cabinet lined with Spanish cedar. Its job is to keep cigars at
               65 to 72% relative humidity (RH) and 65 to 70 degrees Fahrenheit. That range is where
@@ -86,7 +87,7 @@ export default function CigarHumidorPage() {
         {/* How humidity works */}
         <section aria-label="How humidity control works" className="py-16 px-4 bg-rose-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">How Humidity Control Works</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">The Three Things That Actually Keep Your Cigars in Range</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
               Three components keep your humidor in range: a humidification device, a hygrometer,
               and the Spanish cedar lining itself.
@@ -126,7 +127,7 @@ export default function CigarHumidorPage() {
         {/* Types */}
         <section aria-label="Types of humidors" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Four Types of Humidors</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Pick the Right Humidor for Where You Are in the Hobby</h2>
             <div className="grid sm:grid-cols-2 gap-6">
               <div className="bg-gray-50 rounded-xl p-6 border border-gray-100">
                 <h3 className="font-bold text-gray-900 mb-2">Desktop (10 to 50 cigars)</h3>
@@ -168,7 +169,7 @@ export default function CigarHumidorPage() {
         {/* Seasoning */}
         <section aria-label="How to season a new humidor" className="py-16 px-4 bg-rose-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">How to Season a New Humidor</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Season It Once. Protect Your Investment for Years.</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
               A new humidor has dry wood. If you skip seasoning, the dry cedar pulls moisture from
               your cigars instead of maintaining it. Seasoning primes the wood so it stabilizes the
@@ -203,7 +204,7 @@ export default function CigarHumidorPage() {
         {/* Ideal conditions and mistakes */}
         <section aria-label="Ideal conditions and common mistakes" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Ideal Conditions</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">The Numbers That Keep Cigars Smokable</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
               The target range is 65 to 72% RH and 65 to 70 degrees Fahrenheit. A simple starting
               point is the "65/65 rule" — 65% humidity at 65 degrees. This is conservative and
@@ -219,7 +220,7 @@ export default function CigarHumidorPage() {
                 to your humidor. Thaw slowly — move to fridge for 24 hours, then room temp.
               </p>
             </div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Common Mistakes</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">When Your Humidor Readings Are Off</h2>
             <ul className="space-y-4">
               {[
                 { mistake: 'Using tap water', fix: 'Always use distilled water — no minerals, no deposits.' },
@@ -244,11 +245,12 @@ export default function CigarHumidorPage() {
         <section aria-label="App download call to action" className="py-16 px-4 bg-rose-50">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Track your humidor inventory in CigarsBase
+              Know Exactly What Is in Your Humidor at All Times
             </h2>
             <p className="text-gray-600 mb-6">
-              Log what you own, when you bought it, and what you paid. 1,840 cigars in the database.
-              Free download.
+              Log your stock in CigarsBase. Track what you own, when you bought it, and how many
+              are left. You will always know when you are running low on a go-to stick before it
+              runs out. 1,840 cigars in the database. Free, no subscription.
             </p>
             <Link
               href="/free-download"

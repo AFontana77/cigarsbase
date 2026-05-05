@@ -56,8 +56,10 @@ export default function CohibaPage() {
               Cohiba Cigars
             </h1>
             <p className="text-gray-600 text-lg max-w-xl mx-auto leading-relaxed">
-              There are two Cohiba brands with the same name but different origins.
-              One is Cuban. One is Dominican. This guide explains both.
+              Cohiba is the cigar brand most people have heard of and fewer know how to buy well.
+              Two companies make cigars called Cohiba. One is Cuban and cannot be sold in the US.
+              The other is Dominican and is in every shop. This guide covers which is which,
+              what each line tastes like, and which one to pick up first.
             </p>
           </div>
         </section>
@@ -65,7 +67,7 @@ export default function CohibaPage() {
         {/* Critical distinction */}
         <section aria-label="Two Cohiba brands explained" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Two Brands, One Name</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Why Buying Cohiba Blind Is a Gamble</h2>
             <div className="bg-rose-50 border border-rose-100 rounded-xl p-6 mb-8">
               <p className="text-gray-700 leading-relaxed font-medium">
                 Many beginners do not know this: there are two entirely different companies making
@@ -102,7 +104,7 @@ export default function CohibaPage() {
         {/* Cuban Cohiba history */}
         <section aria-label="Cuban Cohiba history and lines" className="py-16 px-4 bg-rose-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Cuban Cohiba: The Original</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Why Cohiba Commands a Premium 60 Years In</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
               Cuban Cohiba started in 1966 as Fidel Castro's personal brand. Eduardo Ribera,
               a cigar roller known as El Laguito, began making them for Castro at the El Laguito
@@ -142,7 +144,7 @@ export default function CohibaPage() {
         {/* Dominican Cohiba */}
         <section aria-label="Dominican Cohiba US lines" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Dominican Cohiba: The US Version</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">The Lines You Can Actually Buy in the US</h2>
             <p className="text-gray-600 leading-relaxed mb-6">
               General Cigar launched its US Cohiba in 1978 after a trademark dispute. The brand
               became established before the Cuban embargo fully solidified the legal landscape.
@@ -178,7 +180,7 @@ export default function CohibaPage() {
         {/* Flavor comparison */}
         <section aria-label="Flavor profile comparison" className="py-16 px-4 bg-rose-50">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Flavor Profile Comparison</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Cuban vs. Dominican: What the Difference Actually Means in the Smoke</h2>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse">
                 <thead>
@@ -212,7 +214,7 @@ export default function CohibaPage() {
         <section aria-label="US legal status of Cuban cigars" className="py-16 px-4 bg-white">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Can you buy Cuban Cohiba in the US?
+              What to Do When a Shop Claims to Have Cuban Cohiba
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4">
               No. Cuban cigars remain under a US trade embargo. It is illegal to sell or import
@@ -232,11 +234,13 @@ export default function CohibaPage() {
         <section aria-label="App download call to action" className="py-16 px-4 bg-rose-50">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
-              Search Cohiba in CigarsBase
+              Stop Guessing Which Cohiba Is Worth It
             </h2>
             <p className="text-gray-600 mb-6">
-              Both the Cuban and Dominican lines are in our 1,840-cigar database. See full ratings,
-              vitolas, and tasting notes. Free download.
+              Log each Cohiba you smoke in CigarsBase. Rate the draw, burn, and flavor. After a
+              few smokes across the Dominican and Cuban lines you will know exactly which one
+              matches your palate and which you skip next time. Both lines are in the 1,840-cigar
+              database. Free download, no subscription.
             </p>
             <Link
               href="/free-download"
