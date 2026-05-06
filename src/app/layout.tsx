@@ -1,8 +1,19 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Bodoni_Moda, Mulish } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ variable: "--font-inter", subsets: ["latin"], display: "swap" });
+const bodoniModa = Bodoni_Moda({
+  variable: "--font-display",
+  subsets: ["latin"],
+  display: "swap",
+  style: ["normal", "italic"],
+});
+
+const mulish = Mulish({
+  variable: "--font-body",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 const SITE_URL = "https://www.cigarsbase.com";
 
@@ -48,8 +59,8 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col font-sans">{children}</body>
+    <html lang="en" className={`${bodoniModa.variable} ${mulish.variable} h-full antialiased`}>
+      <body className="min-h-full flex flex-col font-body">{children}</body>
     </html>
   );
 }
